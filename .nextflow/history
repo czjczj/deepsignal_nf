@@ -1,1 +1,3 @@
 2021-12-12 09:32:48	1.1s	grave_sax	OK	3c85d8bbf062e2cbbfb6e095b1683711	76ab4cd7-438d-4c34-a8ac-eeaa0b83b1b3	nextflow run main.nf
+2021-12-12 10:08:33	1.5s	insane_shockley	OK	d514486c9bf7b158e127415b15d87167	d8e987c9-3e8f-4e58-aa29-9f320f285678	nextflow run main.nf
+2021-12-12 10:09:28	1.4s	pedantic_fermat	OK	29955d20603eeeebb4954880fc34c19a	46a4e575-2978-4baf-af48-d019847f8bb0	nextflow run main.nf

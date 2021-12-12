@@ -28,3 +28,5 @@ process sayHello {
     echo 'Hello World!' > file
     """
 }
+
+println "Hello world"
