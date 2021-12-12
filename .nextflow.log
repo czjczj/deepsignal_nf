@@ -1,0 +1,39 @@
+Dec-12 09:32:47.149 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+Dec-12 09:32:47.237 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.10.3
+Dec-12 09:32:47.273 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [grave_sax] - revision: 3c85d8bbf0
+Dec-12 09:32:47.296 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/chengzhongjian/deepsignal_nf/nextflow.config
+Dec-12 09:32:47.297 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/chengzhongjian/deepsignal_nf/nextflow.config
+Dec-12 09:32:47.325 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Dec-12 09:32:48.225 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/chengzhongjian/.nextflow/plugins
+Dec-12 09:32:48.228 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Dec-12 09:32:48.245 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Dec-12 09:32:48.246 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Dec-12 09:32:48.251 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Dec-12 09:32:48.265 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Dec-12 09:32:48.340 [main] DEBUG nextflow.Session - Session uuid: 76ab4cd7-438d-4c34-a8ac-eeaa0b83b1b3
+Dec-12 09:32:48.341 [main] DEBUG nextflow.Session - Run name: grave_sax
+Dec-12 09:32:48.341 [main] DEBUG nextflow.Session - Executor pool size: 104
+Dec-12 09:32:48.366 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.10.3 build 5655
+  Created: 23-11-2021 07:29 UTC (15:29 CDT)
+  System: Linux 4.15.0-147-generic
+  Runtime: Groovy 3.0.9 on OpenJDK 64-Bit Server VM 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10
+  Encoding: UTF-8 (UTF-8)
+  Process: 5507@ubuntu [127.0.1.1]
+  CPUs: 104 - Mem: 251.6 GB (90.9 GB) - Swap: 242.1 GB (241.9 GB)
+Dec-12 09:32:48.394 [main] DEBUG nextflow.Session - Work-dir: /home/chengzhongjian/deepsignal_nf/work [ext2/ext3]
+Dec-12 09:32:48.394 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/chengzhongjian/deepsignal_nf/bin
+Dec-12 09:32:48.406 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Dec-12 09:32:48.420 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Dec-12 09:32:48.476 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 105; maxThreads: 1000
+Dec-12 09:32:48.636 [main] DEBUG nextflow.Session - Session start invoked
+Dec-12 09:32:48.971 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Dec-12 09:32:49.019 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: sayHello
+Dec-12 09:32:49.020 [main] DEBUG nextflow.Session - Ignite dataflow network (0)
+Dec-12 09:32:49.020 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Dec-12 09:32:49.020 [main] DEBUG nextflow.Session - Session await
+Dec-12 09:32:49.020 [main] DEBUG nextflow.Session - Session await > all process finished
+Dec-12 09:32:49.020 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Dec-12 09:32:49.036 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Dec-12 09:32:49.079 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Dec-12 09:32:49.112 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
