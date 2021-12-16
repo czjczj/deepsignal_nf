@@ -15,11 +15,9 @@ process GuppyBasecaller {
     """
     date; hostname; pwd
 
-    which guppy_basecaller
-    guppy_basecaller -v
     mkdir -p ${params.fast5sdir_guppy}
 
-    guppy_basecaller -i ${fast5sdir} -r \
+    ${guppy_install_dir}/guppy_basecaller -i ${fast5sdir} -r \
         -s ${params.fast5sdir_guppy} \
         --config ${params.GUPPY_BASECALL_MODEL} \
         --num_callers ${params.process_num} \
